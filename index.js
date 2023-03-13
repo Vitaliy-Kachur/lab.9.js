@@ -10,5 +10,5 @@ function EnteringNumbers(numberOfNumbers, sum, enterNumbers) {
         enterNumbers += " "+ numeric + ",";
         return EnteringNumbers(numberOfNumbers, sum, enterNumbers);
     }
-  }
+}
   EnteringNumbers(0, 0, "");
